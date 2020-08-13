@@ -1,0 +1,172 @@
+/*---------------------------
+     Basic Setup
+----------------------------*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html{
+  background-color: white;
+  color:#555;
+  font-family: 'Lato', 'Arial',sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering:optimizeLegibility ;
+}
+
+/*---------------------------
+     Reusable components
+----------------------------*/
+.row{
+  max-width: 1140px;
+  margin:0 auto;
+}
+.nav-row{
+  max-width: 1140px;
+  margin:0 200px;
+}
+
+/*------ Headings ------*/
+
+h1{
+  margin-top: 0;
+  margin-top: 45px;
+  color:whitesmoke;
+  font-size: 240%;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+
+}
+
+/*------ Buttons ------*/
+
+.button:link,
+.button:visited {
+display: inline-block;
+padding: 10px 30px;
+font-weight: 300;
+text-decoration: none;
+border-radius: 200px;
+color: whitesmoke;
+border: 1px solid #2ed573;
+transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.button:hover,
+.button:active{
+background-color: #26bb64;
+border: 1px solid #83e6ac;
+}
+
+.button-header1 {
+  background-color: #2ed573;
+  margin-right:20px;
+  font-weight: bolder;
+
+}
+
+.button-header2{
+  border: 1px solid #2ed573;
+}
+
+/********************
+*     Header
+*********************/
+
+header{
+  margin-top: 0;
+  background-image: linear-gradient(hsla(0, 0%, 0%, 0.6), rgba(0, 0, 0, 0.6)),url(img/header-front-page.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header-text-box{
+  position:absolute;
+  width: 1140px;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  text-align: center;
+}
+
+.logo{
+  height:50px ;
+  width: auto;
+  float:left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.main-nav{
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+
+.main-nav li{
+  display:inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+ color:whitesmoke;
+ text-decoration: none;
+ font-size: 90%;
+ border-bottom: 1px solid transparent;
+ transition: border-bottom 0.2s;
+ padding: 8px 0; // space between the navigation bar text and underline
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+border-bottom: 2px solid #2ed573; // underline text
+}
+
+/********************
+*     Section 1
+*********************/
+.what-is-drypod {
+  text-align: center;
+  margin-top: 50px;
+ 
+}
+
+.buyer-persona {
+  margin-top: 30px;
+  margin-left: 38%;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+
+/********************
+*     Section 2
+*********************/
+
+.product img{
+  display: block;
+  margin: 0 auto 50px auto;
+  width: 50%;
+}
+
+
+.product1 img{
+  margin-left: 150px;
+}
+.product2 img{
+  margin-right: 250px;
+}
+
+
+/********************
+*     Section 3
+*********************/
+.key-values{
+
+}
