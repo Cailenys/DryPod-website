@@ -23,6 +23,10 @@ html{
   max-width: 1140px;
   margin:0 auto;
 }
+
+section{
+  padding: 0.5rem 0;
+}
 .nav-row{
   max-width: 1140px;
   margin:0 200px;
@@ -30,7 +34,7 @@ html{
 
 /*------ Headings ------*/
 
-h1{
+h1 {
   margin-top: 0;
   margin-top: 45px;
   color:whitesmoke;
@@ -39,7 +43,38 @@ h1{
   text-transform: uppercase;
   letter-spacing: 1px;
   word-spacing: 4px;
+}
+h2{ font-size: 130%;}
 
+.section3 h2{
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.what-is-drypod:after{
+  display:block;
+  height: 2px;
+  background-color:#0ba14b;
+  content:"";
+  width: 200px;
+  margin: 2% auto;
+  margin-bottom: 20px;
+}
+
+/*------ Paragraphs ------
+.long-text{
+  line-height: 160%;
+  width: 70%;
+  margin-left: 15%;
+}*/
+
+/*------ Icons ------*/
+.icon-key{
+  font-size: 150%;
+  margin: 0 45% 20px ;
+  color: #0ba14b;
+  text-align: center;
 }
 
 /*------ Buttons ------*/
@@ -52,25 +87,25 @@ font-weight: 300;
 text-decoration: none;
 border-radius: 200px;
 color: whitesmoke;
-border: 1px solid #2ed573;
+border: 1px solid #0ba14b;
 transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .button:hover,
 .button:active{
-background-color: #26bb64;
-border: 1px solid #83e6ac;
+background-color: #06c85a;
+border: 1px solid #47e98b;
 }
 
 .button-header1 {
-  background-color: #2ed573;
+  background-color: #0ba14b;
   margin-right:20px;
   font-weight: bolder;
 
 }
 
 .button-header2{
-  border: 1px solid #2ed573;
+  border: 1px solid #0ba14b;
 }
 
 /********************
@@ -79,7 +114,7 @@ border: 1px solid #83e6ac;
 
 header{
   margin-top: 0;
-  background-image: linear-gradient(hsla(0, 0%, 0%, 0.6), rgba(0, 0, 0, 0.6)),url(img/header-front-page.jpg);
+  background-image: linear-gradient(hsla(0, 0%, 0%, 0.6), rgba(0, 0, 0, 0.6)),url(img/soccer4.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -144,29 +179,63 @@ border-bottom: 2px solid #2ed573; // underline text
   margin-bottom: 50px;
 }
 
+.buyer-list{
+  margin-left: 30px;
+}
 
-/********************
-*     Section 2
-*********************/
+
+/*****************************
+*     Section 2 - Products
+******************************/
 
 .product img{
   display: block;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 20px auto;
   width: 50%;
 }
 
 
 .product1 img{
-  margin-left: 150px;
+  margin-left: 10rem;
 }
 .product2 img{
   margin-right: 250px;
 }
 
 
-/********************
-*     Section 3
-*********************/
-.key-values{
+/*******************************
+*    Section 3 - Key values
+********************************/
+.box{
+  padding: 1%;
 
+}
+
+.box p{
+  font-size: 90%;
+  line-height: 145%;
+  text-align: justify;
+}
+
+/*******************************
+*    Section 4 - Gallery
+********************************/
+
+.category{
+  list-style: none;
+  width: 100%;
+}
+.category li{
+display: block;
+float:left;
+width: 25%;
+}
+/*
+.gallery-photo{
+width: 100%;
+margin:0;
+}*/
+
+.gallery-photo img{
+  width: 100%
 }
