@@ -55,7 +55,13 @@ h3{
 h2{ font-size: 130%;}
 
 
-
+.section1{
+  background-color: #f2f2f2;
+  
+}
+.what-is-drypod {
+  margin-bottom: 5%;
+}
 .what-is-drypod:after{
   display:block;
   height: 2px;
@@ -301,7 +307,7 @@ margin-left: 3rem;
 }
 
 .products {
-  background-color: #f2f2f2
+  background-color: #f2f2f2;
 }
 .products h1{
   padding-top: 4%;
@@ -327,7 +333,7 @@ blockquote{
 
 blockquote:before{
   content: "\201C";
-  font-family:"sans-serif" ;
+  font-family:"sans-serif";
   font-size: 250%;
   display: block;
   position: absolute;
@@ -350,3 +356,37 @@ cite img{
 .testimonials h1{
 margin-top: 6%;
 }
+
+/********************
+*     Footer
+*********************/
+footer{
+  background-color: #171717;
+  padding: 2rem;
+  line-height: 150%;
+}
+.copy-right p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+.contact-info, .footer-nav, .social-icons {
+  list-style: none;
+}
+
+.footer-nav {
+  float: left;
+}
+
+.footer-nav li:last-child, 
+.social-icons li:last-child{
+margin: 0;
+}
+
+.social-icons{
+  margin-left: 6rem;
+}
+
+.social-icons li{
+  display:inline-block ;
+  margin-right: 1rem;
+  }
