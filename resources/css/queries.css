@@ -1,12 +1,11 @@
 
 /************************************************
-*   Big table to 1200px
+*   Big table  1200px
 *************************************************/
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
   and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1){
 
     html{
@@ -55,7 +54,7 @@
    }
 
     footer{
-        padding-left: 6rem;
+        padding-left: 4rem;
     }
 
     .logo{
