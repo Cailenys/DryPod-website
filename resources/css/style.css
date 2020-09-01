@@ -54,7 +54,7 @@ h3{
 
 h2{ font-size: 130%;}
 
-
+img { max-width: 100%; height: auto; }
 .section1{
   background-color: #f2f2f2;
   
@@ -75,8 +75,8 @@ h2{ font-size: 130%;}
 .what-is-drypod p {
   line-height: 160%;
   margin-bottom: 2%;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /*------ Icons ------*/
@@ -111,7 +111,6 @@ border: 1px solid #47e98b;
   background-color: #0ba14b;
   margin-right:20px;
   font-weight: bolder;
-
 }
 
 .button-header2{
@@ -364,11 +363,14 @@ footer{
   background-color: #171717;
   padding: 2rem;
   line-height: 150%;
+  padding-left: 10rem;
+  padding-right: -15rem;
 }
 .copy-right p {
   text-align: center;
   font-size: 0.8rem;
 }
+
 .contact-info, .footer-nav, .social-icons {
   list-style: none;
 }
@@ -384,6 +386,7 @@ margin: 0;
 
 .social-icons{
   margin-left: 6rem;
+  font-size:1.3rem;
 }
 
 .social-icons li{
