@@ -14,6 +14,7 @@ html{
   font-weight: 300;
   font-size: 20px;
   text-rendering:optimizeLegibility ;
+  width: fit-content;
 }
 
 /*---------------------------
@@ -230,7 +231,7 @@ width: 30%;
 
 .gallery {
   padding-top: 2%;
-  margin-left: 0;
+  margin-left: 12rem;
 }
 
 .gallery-photo {
