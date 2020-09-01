@@ -37,8 +37,9 @@
         margin-top: -345px;
     } 
 
-    .gallery-photo{
-        margin-left: 2rem;
+    .gallery {
+        margin-right: 5rem;
+        margin-left: 12rem;
     }
 
     .main-nav {
@@ -353,5 +354,5 @@
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    
+
 }
