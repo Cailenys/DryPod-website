@@ -345,8 +345,9 @@ html{
     background-attachment: fixed;
     background-position-x: center;
   }
+
   blockquote{
-    padding: 1rem 2rem 0 1rem;
+    padding: 1rem 2rem 0 2rem;
     margin-top: 3rem;
   }
   
@@ -365,9 +366,11 @@ html{
     margin-top: 25px;
     display: block;
   }
+
   cite img{
     width: 25%;
   }
+
   .testimonials h1{
   margin-top: 10%;
   }
@@ -379,13 +382,7 @@ html{
   /********************
   *     Footer
   *********************/
-  footer{
-    background-color: #171717;
-    padding: 2rem;
-    line-height: 150%;
-    padding-left: 3rem;
-    padding-right: -15rem;
-  }
+
   .copy-right p {
     text-align: center;
     font-size: 0.8rem;
@@ -393,7 +390,7 @@ html{
   
   
   .footer-text {
-    text-align: center;
+    text-align: left;
   }
   
   
