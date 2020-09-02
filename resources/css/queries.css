@@ -257,7 +257,7 @@ html{
   header {
     height: 85vh;
     background-position-y: 100vh;
-    background-position-x: -1vh;
+    background-position-x: center;
   }
   
   .header-text-box{
