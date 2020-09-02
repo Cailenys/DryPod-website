@@ -129,8 +129,8 @@ header {
   background-position: center;
   height: 55vh;
   background-attachment: fixed;
-  background-position-y: 74vh;
-  background-position-x: -71vh;
+  background-position-y: 73vh;
+  background-position-x: -70vh;
 }
 
 .header-text-box{
@@ -179,30 +179,6 @@ border-bottom: 2px solid #2ed573; // underline text
 }
 
 
-/******************************************
-*   Section 1 - Who should get a DryPod
-*******************************************/
-
-.what-is-drypod {
-  margin-bottom: 5%;
-  text-align: center;
-  margin-top: 24px;
-}
-.what-is-drypod:after{
-  display:block;
-  height: 2px;
-  background-color:#0ba14b;
-  content:"";
-  width: 200px;
-  margin: 1% auto;
-  margin-bottom: 2%;
-}
-
-.what-is-drypod p {
-  line-height: 160%;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
 
 
 
@@ -260,6 +236,32 @@ border-bottom: 2px solid #2ed573; // underline text
 .buyer-title h1{
   margin-top:3rem;
   margin-right: 2.5rem;
+}
+
+
+/******************************************
+*   Section 2 - Who should get a DryPod
+*******************************************/
+
+.what-is-drypod {
+  margin-bottom: 5%;
+  text-align: center;
+  margin-top: 24px;
+}
+.what-is-drypod:after{
+  display:block;
+  height: 2px;
+  background-color:#0ba14b;
+  content:"";
+  width: 200px;
+  margin: 1% auto;
+  margin-bottom: 2%;
+}
+
+.what-is-drypod p {
+  line-height: 160%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /*******************************
@@ -324,11 +326,12 @@ border-bottom: 2px solid #2ed573; // underline text
 .testimonials {
   background-image: linear-gradient(rgb(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(img/soccer-field.jpg);
   background-size: cover;
-  height: 85vh;
+  height: 90vh;
   color: whitesmoke;
   background-attachment: fixed;
   background-position-x: -27vh;
 }
+
 blockquote{
   padding: 1rem 3rem 0 3rem;
   font-style: italic;
@@ -352,6 +355,7 @@ cite{
   margin-top: 25px;
   display: block;
 }
+
 cite img{
   height: 50%;
   width: 15%;
@@ -359,6 +363,7 @@ cite img{
   margin-right: 10px;
   vertical-align: middle;
 }
+
 .testimonials h1{
 margin-top: 8%;
 }

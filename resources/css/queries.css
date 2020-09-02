@@ -1,0 +1,193 @@
+/************************************************
+*   Big table  1200px
+*************************************************/
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+
+   /*---------------------------
+     Basic Setup
+----------------------------*/
+
+  
+  html{
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  /*---------------------------
+       Reusable components
+  ----------------------------*/
+
+  h1 {
+    font-size: 150%;
+    font-weight: 300;   
+  }
+  
+
+  /*------ Headings ------*/
+  
+  .header-text-box h1 {
+    font-size: 150%;
+    margin-top: -326px;
+    
+  }
+  
+  h2{ font-size: 130%;}
+  
+  img { 
+    max-width: 100%;
+    height: auto;
+   }
+  
+  .section1{
+    background-color: #f2f2f2;
+    
+  }
+  
+  /*------ Icons ------*/
+  .icon-key{
+    font-size: 150%;
+    margin: 5% 45% 20px ;
+    color: #0ba14b;
+    text-align: center;
+  }
+  
+  
+  
+  
+  /********************
+  *     Header
+  *********************/
+  
+  header {
+    background-size: contain;
+    height: 40vh;
+    background-position-y: 83vh;
+    background-position-x: 0;
+  }
+  
+ 
+  .logo {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-left: 59px;
+    margin-top: 62px;
+  }
+  
+  .main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+    margin-left:30px;
+  }
+  
+  .main-nav li{
+    display:inline-block;
+    margin-left: -30px;
+    margin-right: 50px;
+    margin-top: 60px;
+  }
+  
+    
+  /*******************************
+  *    Section 2 - Gallery
+  ********************************/
+    
+  .gallery {
+    margin-right: 2rem;
+    margin-left: 4rem;
+  }
+  
+  .buyer-persona {
+    margin-bottom: 2%;
+    margin-top: 6%;
+    line-height: 2;
+  }
+  
+    
+  .buyer-title h1{
+    margin-top:0rem;
+   
+  }
+
+  .buyer-persona li {
+   margin-right: -2rem;
+  }
+
+  
+  /*******************************
+  *    Section 3 - Key values
+  ********************************/
+
+  .box p{
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  
+  
+  /*****************************
+  *   Section 4 - Testimonials
+  ******************************/
+  .testimonials {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-size: contain;
+    background-position-x: -0.5vh;
+    background-position-y: -25vh;
+    background-attachment: fixed;
+
+    height: 50vh;
+  }
+  
+  blockquote{
+    padding: 1rem 0.5rem 0 0.5rem;
+    margin-top: 2rem;
+
+  }
+  
+  blockquote:before{
+    content: "\201C";
+    left: 0.1rem;
+  }
+  
+
+  cite img{
+    width: 25%;
+  }
+  .testimonials h1{
+  margin-top: 10%;
+  }
+  
+  .review{
+    display: block;
+  }
+
+  
+  /********************
+  *     Footer
+  *********************/
+  footer{
+    padding-left: 8rem;
+  }
+    
+  .footer-text {
+    text-align: left;
+  }
+   
+  .social-icons{
+      font-size:1.3rem;
+  }
+  
+  .social-icons li{
+    display:inline-block ;
+    margin-right: 1rem;
+    }
+  
+
+}
