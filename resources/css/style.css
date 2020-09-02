@@ -12,9 +12,8 @@ html{
   color:#555;
   font-family: 'Open Sans','sans-serif', 'Arial';
   font-weight: 300;
-  font-size: 20px;
-  text-rendering:optimizeLegibility ;
-  width: fit-content;
+  font-size: 12px;
+  text-rendering:optimizeLegibility;
 }
 
 /*---------------------------
@@ -25,19 +24,19 @@ html{
   margin:0 auto;
 }
 
-.nav-row{
+.nav-row {
   max-width: 1140px;
   margin:0 5%;
 }
 
 h1 {
-  font-size: 150%;
+  font-size: 130%;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 1px;
   word-spacing: 4px; 
   text-align: center;
-  margin-top: 2%;
+  
 }
 
 h3{
@@ -48,14 +47,18 @@ h3{
 /*------ Headings ------*/
 
 .header-text-box h1 {
-  font-size: 240%;
-  margin-top: -13%;
-  color:whitesmoke;
+  font-size: 109%;
+  margin-top: -133px;
+  color: whitesmoke;
 }
 
 h2{ font-size: 130%;}
 
-img { max-width: 100%; height: auto; }
+img { 
+  max-width: 100%;
+  height: auto;
+ }
+
 .section1{
   background-color: #f2f2f2;
   
@@ -83,7 +86,7 @@ img { max-width: 100%; height: auto; }
 /*------ Icons ------*/
 .icon-key{
   font-size: 150%;
-  margin: 0 45% 20px ;
+  margin: 5% 45% 20px ;
   color: #0ba14b;
   text-align: center;
 }
@@ -93,7 +96,7 @@ img { max-width: 100%; height: auto; }
 .button:link,
 .button:visited {
 display: inline-block;
-padding: 10px 30px;
+padding: 5px 22px;
 font-weight: 300;
 text-decoration: none;
 border-radius: 200px;
@@ -141,10 +144,11 @@ a:active {
 header {
   margin-top: 0;
   background-image: linear-gradient(hsla(0, 0%, 0%, 0.5), rgba(0, 0, 0, 0.5)),url(img/header-pic.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  height: 80vh;
+  height: 32vh;
   background-attachment: fixed;
+  background-position-y: 64vh;
 }
 
 .header-text-box{
@@ -157,22 +161,24 @@ header {
 }
 
 .logo {
-  height:50px ;
+  height:25px ;
   width: auto;
   float:left;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 10px;
+  margin-top: 25px;
 }
 
 .main-nav{
   float: right;
   list-style: none;
-  margin-top: 55px;
+  margin-top: 15px;
 }
 
 .main-nav li{
   display:inline-block;
-  margin-left: 40px;
+  margin-left: 3px;
+  margin-right: 2px;
+  margin-top: -2px;
 }
 
 .main-nav li a:link,
@@ -182,7 +188,7 @@ header {
  font-size: 90%;
  border-bottom: 1px solid transparent;
  transition: border-bottom 0.2s;
- padding: 8px 0; // space between the navigation bar text and underline
+ padding: 0 9px; // space between the navigation bar text and underline
 }
 
 .main-nav li a:hover,
@@ -201,18 +207,21 @@ border-bottom: 2px solid #2ed573; // underline text
  
 }
 
-.buyer-persona ul {
-  margin-top: 20px;
-  margin-left: 10%;
+.buyer-persona {
+  margin-bottom: 2%;
+  padding-right: 3rem;
+  margin-top: 6%;
+  margin-left: 7rem;
   line-height: 2;
 }
 
 .buyer-list{
-  margin-left: 30px;
+  margin-left: -5rem;
 }
 
-.buyer-persona h1{
-  text-align: left;
+.buyer-title h1{
+  margin-top:3rem;
+  margin-right: 2.5rem;
 }
 
 /*******************************
@@ -231,7 +240,8 @@ width: 30%;
 
 .gallery {
   padding-top: 2%;
-  margin-left: 12rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
 }
 
 .gallery-photo {
@@ -264,19 +274,25 @@ transform: scale(1.03);
   padding: 1%;
 
 }
-.key-values h1{
-  padding-top: 2%;
-}
 .box p{
   font-size: 90%;
   line-height: 145%;
-  text-align: justify;
+  text-align: center;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
+.key-values{
+  margin-bottom: 3rem;
+}
+.key-values h1{
+  padding-top: 2%;
+}
+
 
 .key-values h2{
   letter-spacing: 1.5px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 }
 
 /*****************************
@@ -287,30 +303,23 @@ transform: scale(1.03);
   display: inline-block;
   margin: 0 auto 1.5% auto;
   border-radius: 100%;
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
+}
+.products img {
+  margin-left: 7.5rem;
 }
 
-.product1 h3 {
-  margin-left: 55%;
+.products h3 {
+  margin-left: 38%;
   border-color:#0ba14b;
-}
-.product2 h3{
-  margin-left: 23%;
-}
-.product1 img {
-  color:#0ba14b;
-  margin-left: 12rem;
-}
-.product2 img {
-margin-left: 3rem;
 }
 
 .products {
   background-color: #f2f2f2;
 }
 .products h1{
-  padding-top: 4%;
+  padding-top: 10%;
 }
 
 /*****************************
@@ -322,9 +331,10 @@ margin-left: 3rem;
   height: 80vh;
   color: whitesmoke;
   background-attachment: fixed;
+  background-position-x: -27vh;
 }
 blockquote{
-  padding: 2%;
+  padding: 1rem 3rem 0 3rem;
   font-style: italic;
   line-height: 145%;
   position: relative;
@@ -338,7 +348,7 @@ blockquote:before{
   display: block;
   position: absolute;
   top: -5px;
-  left: -5px;
+  left: 1.5rem;
 }
 
 cite{
@@ -348,13 +358,17 @@ cite{
 }
 cite img{
   height: 50%;
-  width: 20%;
+  width: 15%;
   border-radius: 150%;
   margin-right: 10px;
   vertical-align: middle;
 }
 .testimonials h1{
-margin-top: 6%;
+margin-top: 8%;
+}
+
+.review{
+  display: none;
 }
 
 /********************
@@ -364,7 +378,7 @@ footer{
   background-color: #171717;
   padding: 2rem;
   line-height: 150%;
-  padding-left: 10rem;
+  padding-left: 3rem;
   padding-right: -15rem;
 }
 .copy-right p {
@@ -372,13 +386,16 @@ footer{
   font-size: 0.8rem;
 }
 
+
+.footer-text {
+  text-align: center;
+}
+
+
 .contact-info, .footer-nav, .social-icons {
   list-style: none;
 }
 
-.footer-nav {
-  float: left;
-}
 
 .footer-nav li:last-child, 
 .social-icons li:last-child{
@@ -386,7 +403,7 @@ margin: 0;
 }
 
 .social-icons{
-  margin-left: 6rem;
+
   font-size:1.3rem;
 }
 
